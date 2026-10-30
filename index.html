@@ -1,0 +1,45 @@
+<html>
+<head>
+
+	<title>Appliance Energy Consumption</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="Data Visualisation" />
+	<meta name="keywords"    content="BAEC T_01 web" />
+	<meta name="author"      content="Roosevelt" />
+	<link href="BEstyle.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="BE.js"></script>
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	<script src="t04-5-bars.js" defer></script>
+	<script src="t04-4-load.js" defer></script>
+
+</head>
+<body>
+	<header>
+		<img src="images/PowerIcon.png" width="150" height="150" onclick="goHome()">
+		<ul>
+			<li><a class=main id="active" href="#" onclick="goHome()">Home</a></li>
+			<li><a class=main href="#" onclick="goTelevisions()">Televisions</a></li>
+			<li><a class=main href="#" onclick="goAboutUs()">About Us</a></li>
+			
+		</ul>
+
+
+
+
+
+	</header>
+
+	<main class="chart-page">
+		<h1>TV Brand Model Counts</h1>
+		<p>Number of television models by brand</p>
+		<div id="brand-chart" class="brand-chart" aria-live="polite"></div>
+	</main>
+	
+	<footer>
+		<p><a href="#">Roosevelt Randi Lingoh</a></p>
+		<p><a href="#">2026</a></p>
+	</footer>
+</body>
+
+
+</html>
